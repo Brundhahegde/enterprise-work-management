@@ -57,5 +57,6 @@ Password: pass123
 ```bash
 git clone https://github.com/Brundhahegde/enterprise-work-management.git
 cd enterprise-work-management
-
+cd frontend
+cd backend
 
