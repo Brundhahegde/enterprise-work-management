@@ -1,43 +1,61 @@
-# Enterprise Work Management
+# 🚀 Enterprise Work Management
 
-A monorepo project with **frontend** and **backend**.
+A **monorepo project** with a **React frontend** and **Node.js/Express backend**.  
+This system is designed for enterprise teams to manage projects, tasks, and users efficiently, following **modern architecture and coding standards**.
 
-## 🚀 Hosted Links
-- Frontend (Vercel): [https://your-frontend-link.vercel.app](https://your-frontend-link.vercel.app)
-- Backend (Render): [https://your-backend-link.onrender.com](https://your-backend-link.onrender.com)
+---
 
-## 📦 Libraries Used
+## 🌍 Hosted Links
+- **Frontend (Vercel):** [enterprise-work-management-sigma.vercel.app](https://enterprise-work-management-sigma.vercel.app)  
+- **Backend:** Run locally (see instructions below)
 
-### Frontend
-- React
-- Axios
-- React Router DOM
-- TailwindCSS
+---
 
-### Backend
-- Node.js
-- Express
-- Mongoose (if using MongoDB)
-- Cors
-- Dotenv
 
-## 🛠 Instructions to Run Locally
+## ✨ Features
 
+- 🔑 **User Authentication & Roles**: Admin, Manager, Employee with route protection  
+- 📋 **Project & Task Management**: Kanban board with drag-and-drop  
+- 👥 **User Management**: Role assignment, add/delete users  
+- 📊 **Reporting & Analytics**: Project status, completion rates  
+- 👤 **Profile Management**: Edit details, change password  
+- 🔔 **Real-time Notifications** (planned)  
+- 📱 **Responsive, modern UI**
+
+---
+
+## 📦 Libraries & Tools
+
+### 🖥 Frontend (React)
+- React, React Router DOM  
+- Redux Toolkit  
+- Axios  
+- TailwindCSS / Material UI (MUI)  
+- React Hook Form  
+- @hello-pangea/dnd (Kanban Drag-and-Drop)  
+- Jest + React Testing Library  
+- ESLint / Prettier (Code quality)  
+- Vite/Webpack (Build tooling)
+
+### ⚙️ Backend (Node.js / Express)
+- Express  
+- Mongoose (MongoDB ORM)  
+- JSON Web Token (JWT authentication)  
+- bcryptjs (Password hashing)  
+- dotenv  
+- cors  
+- Nodemon (Dev tooling)  
+- Jest (API testing)
+
+---
+
+## 🛠 Setup Instructions
+Email: brundhahegde14@gmail.com
+
+Password: pass123
+### 1️⃣ Clone Repository
 ```bash
-# Clone repo
 git clone https://github.com/Brundhahegde/enterprise-work-management.git
 cd enterprise-work-management
 
-# Run backend
-cd backend
-npm install
-npm start
 
-# Run frontend
-cd ../frontend
-npm install
-npm start
-
-
-use admin password as:brundhahegde14@gmail.com
-pass:pass123
