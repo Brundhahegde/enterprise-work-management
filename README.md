@@ -60,3 +60,5 @@ cd enterprise-work-management
 cd frontend
 cd backend
 
+node server.js
+npm run dev
